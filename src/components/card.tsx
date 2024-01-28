@@ -5,7 +5,7 @@ import { ThemeContext } from "styled-components";
 
 interface ICard {
   title: string;
-  height: string;
+  height?: string;
   text: string;
 }
 

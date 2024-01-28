@@ -7,7 +7,7 @@ export const GlobalStyles = createGlobalStyle`
         justify-content: center;
         align-content: center;
         height: 100vh;
-        background-color: #f1f1f1;
+        background-color: ${({theme}) => theme.colors.background};
         transition: all 0.15s linear;
         margin: 0;
         font-family: "Roboto";
